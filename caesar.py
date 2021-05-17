@@ -23,9 +23,3 @@ def decrypt(key,ciphertext):
       else:
          plaintext += chr((ord(char) - key - 97) % 26 + 97)
     return plaintext
-
-test_en = encrypt(1, "hello")
-print(test_en)
-
-test_de = decrypt(1, "hellow")
-print(test_de)
