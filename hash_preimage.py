@@ -27,4 +27,4 @@ def hash_preimage(target_string):
     				flag = False
     				break
     			if cur == len(target_string):
-    				return (nonce)
+    				return nonce
